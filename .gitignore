@@ -1,0 +1,51 @@
+```
+# Godot-specific ignores
+*.import
+*.remap
+export_presets.cfg
+.autoloadscache
+.editor
+.godot/
+
+# Build artifacts
+*.so
+*.dll
+*.exe
+*.dylib
+*.bin
+
+# Dependencies
+res://addons/
+addons/*/res://addons/
+
+# Logs
+*.log
+**/logs/
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Distribution
+dist/
+build/
+target/
+```
